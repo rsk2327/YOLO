@@ -14,7 +14,7 @@ Localization and classification of objects of two different shapes (Circles / Re
 
 Class prediction coloring -  `Blue : Rectangular` `Red : Circular`
 
-Video links : ![Video1](https://www.youtube.com/watch?v=K16a2hizF6s) ![Video2](https://www.youtube.com/watch?v=hyrMQS7HMpU) 
+Video links : [**Video1**](https://www.youtube.com/watch?v=K16a2hizF6s) [**Video2**](https://www.youtube.com/watch?v=hyrMQS7HMpU) 
 
 ***
 
