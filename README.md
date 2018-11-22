@@ -19,7 +19,25 @@ Localization and classification of objects of two different shapes (Circles / Re
 ### Combined 
 Localization of 2 objects
 
-![Multiclass image examples](https://image.ibb.co/hWtVUq/Combined-input.png)
+![Combined image examples](https://image.ibb.co/hWtVUq/Combined-input.png)
 
 ***
-### Circle
+### Circles
+Localization of single circular object
+
+![Circle image examples](https://image.ibb.co/f1mdFV/Circle-input.png)
+
+### Blocks
+Localization of single rectangular object
+
+![Circle image examples](https://image.ibb.co/gimTFV/Blocks-input.png)
+
+
+---
+#### Notes
+ - For the prediction task, a probability map has not be used (as used in original paper). Instead class probabilities are predicted for every bounding box
+ - For multiple object detection, a 1x2 grid has been used with a single bounding box associated with each grid cell
+ - To simplify the learning task, input images were created in a manner that ensured that each cell always had a object in it
+ - Ensembling.ipynb : Code to ensemble multiple trained YOLO models. Ensemble model shown to outperform individual models
+ - VideoCreater.ipynb : Code for patching together multiple predicted output images
+ 
