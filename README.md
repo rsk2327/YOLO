@@ -36,7 +36,7 @@ Localization of single rectangular object
 
 
 ---
-#### Notes
+### Notes
  - For the prediction task, a probability map has not be used (as used in original paper). Instead class probabilities are predicted for every bounding box
  - For multiple object detection, a 1x2 grid has been used with a single bounding box associated with each grid cell
  - To simplify the learning task, input images were created in a manner that ensured that each cell always had a object in it
